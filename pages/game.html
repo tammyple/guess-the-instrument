@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"></link>
+    <title>Guess The Instrument</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div id="game">
+                <div class="instruments">
+                    <ul class="intrument-list">
+                        <li id="piano" data-instrument="piano">
+                            <img src="../images/piano.png" alt="piano">
+                        </li>
+                        <li id="drum" data-instrument="drum" class="hidden">
+                            <img src="../images/drum.png" alt="drum">
+                        </li>
+                        <li id="guitar" data-instrument="guitar" class="hidden">
+                            <img src="../images/guitar.png" alt="guitar">
+                        </li>
+                        <li id="violin" data-instrument="violin" class="hidden">
+                            <img src="../images/violin.png" alt="violin">
+                        </li>
+                        <li id="saxophone" data-instrument="saxophone" class="hidden">
+                            <img src="../images/saxophone.png" alt="saxophone">
+                        </li>
+                        <li id="banjo" data-instrument="banjo" class="hidden">
+                            <img src="../images/banjo.png" alt="banjo">
+                        </li>
+                        <li id="trumpet" data-instrument="trumpet" class="hidden">
+                            <img src="../images/trumpet.png" alt="trumpet">
+                        </li>
+                        <li id="oboe" data-instrument="oboe" class="hidden">
+                            <img src="../images/oboe.png" alt="oboe">
+                        </li>
+                        <li id="xylophone" data-instrument="xylophone" class="hidden">
+                            <img src="../images/xylophone.png" alt="xylophone">
+                        </li>
+                    </ul>
+                </div>
+                <div class="game-instructions">
+                    <span class="text-uppercase instructions">Please click the correct instrument to the sound you hear</span>
+                    <span id="success" class="text-uppercase hidden"></span>
+                    <span id="wrong" class="text-uppercase hidden">PLEASE CHOOSE AGAIN</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/selectInstrument.js"></script>
+</body>
+</html>

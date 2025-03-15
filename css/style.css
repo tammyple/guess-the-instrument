@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdd6ef;
+}
+
+.container {
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-wrapper {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+#game-title {
+    font-size: 52px;
+    color: #000000;
+}
+
+.action-wrapper {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#play-game-btn {
+    background-color: rgb(203, 251, 69);
+    color: #000000;
+    border-radius: 10%;
+    padding: 2rem;
+}
+
+#play-game-btn span {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/*Game Page*/
+
+#game {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    gap: 5rem;
+    max-width: 800px;
+}
+
+.instruments {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.instruments ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.instruments ul li {
+    border: 5px solid black;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.instruments ul li:hover {
+    border: 5px solid rgb(114, 111, 247);
+}
+
+.instruments ul li img {
+    width: 100px;
+    height: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.game-instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.game-instructions span {
+    font-size: 20px;
+}
+
+#next-btn {
+    background-color: rgb(203, 251, 69);
+    color: #000000;
+    border-radius: 20%;
+    padding: 2rem;
+}
+    
+#next-btn span {
+    font-size: 30px;
+    text-decoration: none;
+}
