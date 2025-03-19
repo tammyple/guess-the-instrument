@@ -10,41 +10,46 @@
     <div class="main">
         <div class="container">
             <div id="game">
+                <div class="message-wrapper">
+                    <span id="success" class="message text-uppercase hidden"></span>
+                    <span id="wrong" class="message text-uppercase hidden">PLEASE CHOOSE AGAIN</span>
+                </div>
                 <div class="instruments">
                     <ul class="intrument-list">
                         <li id="piano" data-instrument="piano">
-                            <img src="../images/piano.png" alt="piano">
+                            <img src="../assets/images/piano.png" alt="piano">
                         </li>
                         <li id="drum" data-instrument="drum" class="hidden">
-                            <img src="../images/drum.png" alt="drum">
+                            <img src="../assets/images/drum.png" alt="drum">
                         </li>
                         <li id="guitar" data-instrument="guitar" class="hidden">
-                            <img src="../images/guitar.png" alt="guitar">
+                            <img src="../assets/images/guitar.png" alt="guitar">
                         </li>
                         <li id="violin" data-instrument="violin" class="hidden">
-                            <img src="../images/violin.png" alt="violin">
+                            <img src="../assets/images/violin.png" alt="violin">
                         </li>
                         <li id="saxophone" data-instrument="saxophone" class="hidden">
-                            <img src="../images/saxophone.png" alt="saxophone">
+                            <img src="../assets/images/saxophone.png" alt="saxophone">
                         </li>
                         <li id="banjo" data-instrument="banjo" class="hidden">
-                            <img src="../images/banjo.png" alt="banjo">
+                            <img src="../assets/images/banjo.png" alt="banjo">
                         </li>
                         <li id="trumpet" data-instrument="trumpet" class="hidden">
-                            <img src="../images/trumpet.png" alt="trumpet">
+                            <img src="../assets/images/trumpet.png" alt="trumpet">
                         </li>
                         <li id="oboe" data-instrument="oboe" class="hidden">
-                            <img src="../images/oboe.png" alt="oboe">
+                            <img src="../assets/images/oboe.png" alt="oboe">
                         </li>
                         <li id="xylophone" data-instrument="xylophone" class="hidden">
-                            <img src="../images/xylophone.png" alt="xylophone">
+                            <img src="../assets/images/xylophone.png" alt="xylophone">
                         </li>
                     </ul>
                 </div>
                 <div class="game-instructions">
-                    <span class="text-uppercase instructions">Please click the correct instrument to the sound you hear</span>
-                    <span id="success" class="text-uppercase hidden"></span>
-                    <span id="wrong" class="text-uppercase hidden">PLEASE CHOOSE AGAIN</span>
+                    <span class="text-uppercase instructions">Please click the correct instrument to the sound you hear</span> 
+                    <button id="hear-sound" class="main-btn">
+                        <span>Hear Sound</span>
+                    </button>                
                 </div>
             </div>
         </div>

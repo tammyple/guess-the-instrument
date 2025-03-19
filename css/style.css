@@ -57,14 +57,14 @@ body {
     justify-content: center; 
 }
 
-#play-game-btn {
+.main-btn {
     background-color: rgb(203, 251, 69);
     color: #000000;
     border-radius: 10%;
     padding: 2rem;
 }
 
-#play-game-btn span {
+.main-btn span {
     font-size: 30px;
     text-decoration: none;
 }
@@ -78,6 +78,23 @@ body {
     flex-direction: column;
     gap: 5rem;
     max-width: 800px;
+}
+
+.message-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.message {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+#wrong {
+    color: red;
 }
 
 .instruments {
@@ -126,20 +143,9 @@ body {
     align-items: center;
     justify-content: center; 
     flex-direction: column;
+    gap: 2rem;
 }
 
-.game-instructions span {
+.instructions {
     font-size: 20px;
-}
-
-#next-btn {
-    background-color: rgb(203, 251, 69);
-    color: #000000;
-    border-radius: 20%;
-    padding: 2rem;
-}
-    
-#next-btn span {
-    font-size: 30px;
-    text-decoration: none;
 }
